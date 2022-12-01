@@ -204,7 +204,6 @@ body
     margin-right: auto;
     font-size: 20px;
     margin-top: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .Check:hover
@@ -217,10 +216,11 @@ body
 
 .title
 {
+   color:aliceblue;
    -webkit-box-shadow: -2px 5px 35px 0px rgb(255, 255, 255);
    -moz-box-shadow: -2px 5px 35px 0px rgb(173, 76, 76);
    box-shadow: -2px 5px 35px 0px rgb(223, 123, 123);
-   background-color: aliceblue;
+   background-color:#973434;
    margin-left: auto;
    margin-right: auto;
    margin-top: 150px;
@@ -233,15 +233,15 @@ body
    align-items: center;
    font-size: 40px;
    animation:color ease-in-out;
-   animation-duration:3s;
+   animation-duration:5s;
    animation-iteration-count: infinite;
-   animation-delay: 5s;
+   animation-delay: 2s;
 }
 
 @keyframes color
 {
-    0%{background-color: aliceblue;}
-   100%{background-color: #812b2b;}
+    0%{background-color: #812b2b;}
+   100%{background-color: rgb(71, 27, 27);}
 }
 
 
