@@ -107,25 +107,29 @@ body
     text-align: center;
     justify-content: center;
      border-radius: 50%;
-     background-color: #045766;
+     background-color: rgb(71, 27, 27);
 }
 
 .phone:hover
 {
-    opacity: 80%;
+    transition: all 0.5s ease-in;
     cursor: pointer;
+    background-color: rgb(128, 51, 51);;
 }
 
 .place:hover
 {
-    opacity: 80%;
+    transition: all 0.5s ease-in;
     cursor: pointer;
+    background-color: #35c57f;
 }
 
 .facebook:hover
 {
-    opacity: 80%;
+    transition: all 0.5s ease-in;
     cursor: pointer;
+    background-color: #5688eb;
+    
 }
 
 .place
@@ -137,7 +141,7 @@ body
     width:60px;
     height:60px;
     border-radius: 50%;
-    background-color:#1ea362;
+    background-color:#1a8f56;
 }
 
 .facebook
@@ -210,21 +214,83 @@ body
     transition: all 1s ease-in-out;
 }
 
+.title
+{
+   -webkit-box-shadow: -2px 5px 35px 0px rgb(255, 255, 255);
+   -moz-box-shadow: -2px 5px 35px 0px rgb(173, 76, 76);
+   box-shadow: -2px 5px 35px 0px rgb(223, 123, 123);
+   background-color: aliceblue;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 150px;
+   width:200px;
+   height:80px;
+   border-radius: 100px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   animation:color ease-in-out;
+   animation-duration:3s;
+   animation-iteration-count: infinite;
+   animation-delay: 5s;
+}
+
+@keyframes color
+{
+    0%{background-color: aliceblue;}
+   100%{background-color: #812b2b;}
+}
+
+
 .content
 {
-    margin-left: auto;
-    margin-right: auto;
-    width:60%;
-    margin-top: 150px;
-    
+   display: flex;  
+   padding:50px;
+   width:1400px;
+   height:800px;
+   background-color: #d6cdcd;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   border:1px solid rgb(0, 0, 0);
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
 
-.content .text img
+.text
 {
-    width:100%;
-    height: 100%;
+    display: flex;
+    margin-right:35px;
+    text-align: left;
+    font-size: 22px;
+    float:left;
+    letter-spacing: 0.5px;
+    line-height: 140%;
+    text-indent: 30px;
+}
+
+.photo
+{
+    float:left;
+    width:400px;
+    height: 267px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.text1
+{
+    
+    display:flex;
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width:400px;
+    height: 200px;
+    background-color: #1a8f56;
 }
 
 
@@ -238,6 +304,7 @@ body
     clear:both;
     size-adjust:initial;
 }
+
 
 .copy
 {
