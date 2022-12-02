@@ -333,12 +333,10 @@ body
 {
     display: flex;
     flex-direction: column;
-    width:400px;
-    float:left;
+    width:300px;
     margin-top: 50px;
     margin-left: 200px;
     gap:5px;
-    clear:both;
     color:rgb(194, 194, 194);
 }
 
@@ -662,6 +660,7 @@ body
 
 .photo
 {
+    width:300px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -677,7 +676,7 @@ body
 {
     width: 100%;
     margin-top: 150px;
-    height: 800px;
+    height: 850px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -710,7 +709,6 @@ body
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    gap:5px;
     clear:both;
     margin-top: 60px;
     color:rgb(194, 194, 194);
