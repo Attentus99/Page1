@@ -256,7 +256,7 @@ body
    display: flex;  
    padding:50px;
    width:1400px;
-   height:800px;
+   height:1000px;
    background-color: #d6cdcd;
    margin-left: auto;
    margin-right: auto;
@@ -333,7 +333,7 @@ body
 {
     display: flex;
     flex-direction: column;
-    width:300px;
+    width:340px;
     margin-top: 50px;
     margin-left: 200px;
     gap:5px;
@@ -566,7 +566,7 @@ body
 
 .motto
 {
-    font-size: 20px;
+    font-size: 30px;
     color:white;
     text-align: center;
     margin-top:150px;
@@ -731,7 +731,7 @@ body
 {
     margin-top:20px;
     color:rgb(194, 194, 194);
-    width:100px;
+    width:200px;
     margin-left: auto;
     margin-right: auto;
 }
