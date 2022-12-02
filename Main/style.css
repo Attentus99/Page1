@@ -256,7 +256,7 @@ body
    display: flex;  
    padding:50px;
    width:1400px;
-   height:1000px;
+   height:800px;
    background-color: #d6cdcd;
    margin-left: auto;
    margin-right: auto;
@@ -637,7 +637,7 @@ body
    flex-direction: column;
    padding:18px;
    width:90%;
-   height:800px;
+   height:1000px;
    background-color: #d6cdcd;
    margin-left: auto;
    margin-right: auto;
