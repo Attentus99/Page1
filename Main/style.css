@@ -28,12 +28,13 @@ body
     background-size:cover;
     background-position: center;
     background-image: url('sewing.jpeg');
+    
 }
 
 .top
 {
     height: 20vh;
-    display:flex;    
+     
 }
 
 .logo
@@ -87,7 +88,12 @@ body
 
 
 .kontakt
-{
+{   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 300px;
+    left:920px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -96,6 +102,7 @@ body
     flex:right;
     margin-bottom: 100px;
     gap:10px;
+
 }
 
 .phone
@@ -107,7 +114,7 @@ body
     text-align: center;
     justify-content: center;
      border-radius: 50%;
-     background-color: rgb(71, 27, 27);
+     border:1px solid white;
 }
 
 .phone:hover
@@ -121,14 +128,14 @@ body
 {
     transition: all 0.5s ease-in;
     cursor: pointer;
-    background-color: #35c57f;
+    background-color: #1a8f56;
 }
 
 .facebook:hover
 {
     transition: all 0.5s ease-in;
     cursor: pointer;
-    background-color: #5688eb;
+    background-color: #4267B2;
     
 }
 
@@ -141,7 +148,7 @@ body
     width:60px;
     height:60px;
     border-radius: 50%;
-    background-color:#1a8f56;
+    border:1px solid white;
 }
 
 .facebook
@@ -153,12 +160,13 @@ body
     align-items:center;
     text-align: center;
     justify-content: center;
-    background-color:#4267B2;
+    border:1px solid white;
 }
 
 .Phoneic
 {
     font-size: 25px;
+    color:white;
 }
 
 .Placeic
@@ -174,14 +182,10 @@ body
     color:white;
 }
 
-.mid
-{
-    display:block;
-}
+
 
 .motto
 {
-
     font-size: 50px;
     color:white;
     text-align: center;
@@ -220,7 +224,7 @@ body
    -webkit-box-shadow: -2px 5px 35px 0px rgb(255, 255, 255);
    -moz-box-shadow: -2px 5px 35px 0px rgb(173, 76, 76);
    box-shadow: -2px 5px 35px 0px rgb(223, 123, 123);
-   background-color:#973434;
+   background-color:#501a1a;
    margin-left: auto;
    margin-right: auto;
    margin-top: 150px;
@@ -240,8 +244,10 @@ body
 
 @keyframes color
 {
-    0%{background-color: #812b2b;}
-   100%{background-color: rgb(71, 27, 27);}
+    0%{background-color: #501a1a;
+       color:rgb(247, 232, 214);}
+   100%{background-color: rgb(71, 27, 27);
+        color:bisque;}
 }
 
 
@@ -281,18 +287,6 @@ body
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.text1
-{
-    
-    display:flex;
-    
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width:400px;
-    height: 200px;
-    background-color: #1a8f56;
-}
 
 
 .footer
@@ -339,12 +333,13 @@ body
 {
     display: flex;
     flex-direction: column;
-    width:200px;
+    width:400px;
     float:left;
     margin-top: 50px;
     margin-left: 200px;
     gap:5px;
     clear:both;
+    color:rgb(194, 194, 194);
 }
 
 .mapouter
@@ -401,4 +396,364 @@ body
     color:rgb(194, 194, 194);
 }
 
+@media screen and (max-width:600px)
+{
+    * {
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+body
+{
+   background:rgb(71, 27, 27);
+   width:100%; 
+}
 
+.page
+{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom:-29px
+}
+
+.container
+{
+    height: 100vh;
+    overflow: hidden;
+    background-size:cover;
+    background-position: center;
+    background-image: url('sewing.jpeg');
+}
+
+.top
+{
+    height: 40vh;
+    width: 100%;
+    
+}
+
+.logo
+{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 170px;
+    width:170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu
+{
+    margin-top:80px;
+    display: flex;
+    flex-direction:row;
+    gap:20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    width:300px;
+}
+
+.menu a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.kontakt
+{   
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+.phone
+{
+    display: flex;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border:1px solid white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    animation:color1 ease-in-out;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes color1
+{
+    0%{}
+   50%{background-color:rgb(128, 51, 51);}
+   100%{}
+}
+
+.place
+{
+    display: flex;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border:1px solid white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    animation:color2 ease-in-out;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes color2
+{
+    0%{}
+   50%{background-color:#1a8f56;}
+   100%{}
+}
+
+.facebook
+{
+    display: flex;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border:1px solid white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    animation:color3 ease-in-out;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes color3
+{
+    0%{}
+   50%{background-color:#4267B2;}
+   100%{}
+}
+
+.Phoneic
+{
+    font-size: 20px;
+    color:white;
+}
+
+.Placeic
+{
+    font-size: 20px;
+    color:#f44546;
+    
+}
+
+.Fbic
+{
+    font-size: 20px;
+    color:white;
+}
+
+
+.motto
+{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    margin-top:150px;
+    letter-spacing: 1px;
+    
+}
+
+.Check
+{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    color:rgb(71, 27, 27);
+    padding: 1rem;
+    border-radius:100px;
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.Check:hover
+{
+    background-color: rgb(71, 27, 27);
+    cursor: pointer;
+    color:bisque;
+    transition: all 1s ease-in-out;
+}
+
+.title
+{
+   color:aliceblue;
+   -webkit-box-shadow: -2px 5px 35px 0px rgb(255, 255, 255);
+   -moz-box-shadow: -2px 5px 35px 0px rgb(173, 76, 76);
+   box-shadow: -2px 5px 35px 0px rgb(223, 123, 123);
+   background-color:#501a1a;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 150px;
+   width:200px;
+   height:80px;
+   border-radius: 100px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   animation:color ease-in-out;
+   animation-duration:5s;
+   animation-iteration-count: infinite;
+   animation-delay: 2s;
+}
+
+@keyframes color
+{
+    0%{background-color: #501a1a;
+       color:rgb(247, 232, 214);}
+   100%{background-color: rgb(71, 27, 27);
+        color:bisque;}
+}
+
+.content
+{
+   display: flex;
+   flex-direction: column;
+   padding:18px;
+   width:90%;
+   height:800px;
+   background-color: #d6cdcd;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   border:1px solid rgb(0, 0, 0);
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.text
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 140%;
+    text-indent: 30px;
+}
+
+.photo
+{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height:200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.photo img
+{
+    width:300px;
+}
+
+.footer
+{
+    width: 100%;
+    margin-top: 150px;
+    height: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.footin
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.placeFoot
+{
+    color:rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    gap:5px;
+    text-align: center;
+}
+
+.dayOpen
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap:5px;
+    clear:both;
+    margin-top: 60px;
+    color:rgb(194, 194, 194);
+    text-align: center;
+    height: 100px;
+}
+
+.mapouter
+{
+    display: flex;
+    color:rgb(194, 194, 194);
+    width:300px;
+    height: 100px;
+    margin-top:60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cookies
+{
+    margin-top:20px;
+    color:rgb(194, 194, 194);
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infocook
+{
+    text-decoration:underline;
+}
+
+
+
+.hoursOpen
+{
+    font-weight: bold;
+}
+
+.placeFoot a
+{
+    
+    color:rgb(194, 194, 194);
+}
+
+}
