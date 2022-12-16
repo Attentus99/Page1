@@ -23,7 +23,7 @@ body
 
 .container
 {
-    height: 100vh;
+    height: 25vh;
     overflow: hidden;
     background-size:cover;
     background-position: center;
@@ -48,6 +48,8 @@ body
 
 .menu
 {
+    position: relative;
+    bottom:60px;
     display: flex;
     flex-direction:row;
     margin-left: auto;
@@ -55,7 +57,6 @@ body
     text-align: center;
     justify-content: center;
     height: 5vh;
-    margin-top:100px;
     letter-spacing: 1px;
     padding:10px;
     gap:30px;
@@ -67,7 +68,7 @@ body
 
 .Offer
 {
-    list-style-type: none;
+    
     cursor: pointer;
     
 }
@@ -76,8 +77,20 @@ body
 {
     text-decoration: underline;
     color:#f44546;
-    transition: all 0.5s ease-out;
 }
+
+.Offer1
+{
+    text-decoration: underline;
+    color:#f44546;
+}
+
+.Offer1:hover
+{
+    text-decoration: underline;
+    color:#f44546;
+}
+
 
 .menu a
 {
@@ -89,11 +102,12 @@ body
 
 .kontakt
 {   
+    width:100px;
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 300px;
-    left:920px;
+    bottom: 230px;
+    left:1800px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -228,7 +242,7 @@ body
    margin-left: auto;
    margin-right: auto;
    margin-top: 150px;
-   width:200px;
+   width:400px;
    height:80px;
    border-radius: 100px;
    display: flex;
@@ -253,7 +267,6 @@ body
 
 .content
 {
-   display: flex;  
    padding:50px;
    width:1400px;
    height:1000px;
@@ -269,22 +282,22 @@ body
 
 .text
 {
-    display: flex;
-    margin-right:35px;
-    text-align: left;
+    text-align:center;
     font-size: 22px;
-    float:left;
     letter-spacing: 0.5px;
     line-height: 140%;
     text-indent: 30px;
 }
 
-.photo
+.service
 {
-    float:left;
-    width:400px;
-    height: 267px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+}
+
+.service1
+{
+    font-size: 22px;
+    margin-top: 20px;
 }
 
 
