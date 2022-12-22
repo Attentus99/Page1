@@ -239,7 +239,7 @@ body
    margin-left: auto;
    margin-right: auto;
    margin-top: 150px;
-   width:400px;
+   width:300px;
    height:80px;
    border-radius: 100px;
    display: flex;
@@ -266,7 +266,7 @@ body
 {
    padding:50px;
    width:1400px;
-   height:1000px;
+   height:600px;
    background-color: #d6cdcd;
    margin-left: auto;
    margin-right: auto;
@@ -589,8 +589,8 @@ body
    margin-left: auto;
    margin-right: auto;
    margin-top: 50px;
-   width:300px;
-   height:100px;
+   width:250px;
+   height:80px;
    border-radius: 100px;
    display: flex;
    text-align: center;
@@ -611,7 +611,7 @@ body
    flex-direction: column;
    padding:18px;
    width:90%;
-   height:1000px;
+   height:400px;
    background-color: #d6cdcd;
    margin-left: auto;
    margin-right: auto;
@@ -631,8 +631,6 @@ body
     line-height: 140%;
     text-indent: 30px;
 }
-
-
 
 
 .footer
